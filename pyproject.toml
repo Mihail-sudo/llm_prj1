@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "bcrypt>=4.3.0",
+    "fastapi[standard]>=0.115.12",
+    "langchain>=0.3.25",
+    "langchain-openai>=0.3.18",
+    "passlib>=1.7.4",
+]
